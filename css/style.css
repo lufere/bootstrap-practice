@@ -1,0 +1,61 @@
+html,body{
+    background-color: lightgray;
+}
+
+.container{
+    background-color: white;
+}
+
+header{
+    /* border: 1px solid red; */
+    background-color: red;
+}
+
+header > img{
+    /* border: 10px solid blue; */
+    height: 35px;
+}
+
+header:first-child{
+    color: white;
+    font-weight: 700;
+}
+
+.login{
+    font-weight: 700;
+    color: white;
+}
+
+.subscribe{
+    font-weight: 700;
+    border-radius: 24px;
+    font-size: 10px;
+    /* padding: 10px 20px; */
+}
+
+/* .row, .col-md-auto{
+    border: 1px solid blue;
+} */
+
+/* .logo{
+    border: 1px solid blue;
+} */
+
+.loginSub{
+    display: flex;
+    align-items: center;
+}
+
+.loginSub > *{
+    margin-right: 4px;
+}
+
+@media (min-width: 992px) { 
+    .logo{
+    height: 120px;
+    }
+
+    .subscribe{
+        font-size: 14px;
+    }
+}
